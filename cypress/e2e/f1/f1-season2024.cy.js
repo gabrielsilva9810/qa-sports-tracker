@@ -27,4 +27,21 @@ describe('F1 - Season 2024', () => {
       cy.log(`🏆 Campeão: ${standings[0].Driver.givenName} ${standings[0].Driver.familyName}`);
     });
   });
+
+  it('List all pole positions of the season', () => {
+    cy.request('https://ergast.com/api/f1/2024/qualifying/1.json?limit=1000').then((res) => {
+      const races = res.body.MRData.RaceTable.Races;
+
+      races.forEach((race) => {
+        const qualifyingResults = race.QualifyingResults;
+        if (qualifyingResults && qualifyingResults[0]) {
+          const pole = qualifyingResults[0].Driver;
+          cy.log(`🎯 Pole - ${race.raceName}: ${pole.givenName} ${pole.familyName}`);
+        } else {
+          cy.log(`🎯 Pole - ${race.raceName}: Dados indisponíveis`);
+        }
+      });
+    });
+  });
+
 });

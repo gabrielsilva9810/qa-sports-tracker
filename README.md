@@ -12,9 +12,14 @@ Os testes automatizados cobrem:
 - ✅ Classificação geral dos **pilotos (driver standings)**;
 - ✅ Listagem de todos os **pole positions** da temporada.
 
+🏀 NBA: 
+- ✅ Listagem;
+- ✅ Listagem;
+- ✅ Listagem;
+
 ⚽ Serie B:
 - ✅ Listagem de todas as **rodadas** do campeonato;
-- ✅ Listagem de todos os **times** do campeonato;
+- ✅ Listagem dos **artilheiros** do campeonato;
 - ✅ Classificação geral dos **times** no campeonato.
 
 ## Requisitos

@@ -12,6 +12,11 @@ Os testes automatizados cobrem:
 - ✅ Classificação geral dos **pilotos (driver standings)**;
 - ✅ Listagem de todos os **pole positions** da temporada.
 
+⚽ Serie B:
+- ✅ Listagem de todas as **rodadas** do campeonato;
+- ✅ Listagem de todos os **times** do campeonato;
+- ✅ Classificação geral dos **times** no campeonato.
+
 ## Requisitos
 Antes de executar os testes, certifique-se de ter os seguintes requisitos instalados:
 - [Node.js](https://nodejs.org/)
@@ -51,7 +56,7 @@ npm run cy:open  # Executa os testes no modo interativo (GUI Mode)
 ## APIs Utilizadas
 - [F1](https://ergast.com/mrd/)
 - NBA - 
-- Campeonato Brasileiro - 
+- [Campeonato Brasileiro B](https://api-futebol.com.br/documentacao/campeonato) 
 
 ---
 🤝🏻 Feito por [Gabriel Silva](https://www.linkedin.com/in/gabrielsilva9810/)

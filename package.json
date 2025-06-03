@@ -12,6 +12,7 @@
   "description": "",
   "devDependencies": {
     "cypress": "^14.4.0",
-    "cypress-plugin-api": "^2.6.1"
+    "cypress-plugin-api": "^2.6.1",
+    "dotenv": "^16.5.0"
   }
 }

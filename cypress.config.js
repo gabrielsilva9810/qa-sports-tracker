@@ -3,7 +3,8 @@ const { defineConfig } = require("cypress");
 module.exports = defineConfig({
   e2e: {
     setupNodeEvents(on, config) {
-      requestMode: true
+      config.env.API_SOCCER_KEY = process.env.API_SOCCER_KEY;
+      return config;
     },
   },
 });

@@ -2,8 +2,6 @@
 
 Este projeto contém testes automatizados utilizando **Cypress** para consumir APIs públicas de esportes.
 
----
-
 ## Funcionalidades
 
 Os testes automatizados cobrem:
@@ -14,15 +12,10 @@ Os testes automatizados cobrem:
 - ✅ Classificação geral dos **pilotos (driver standings)**;
 - ✅ Listagem de todos os **pole positions** da temporada.
 
----
-
 ## Requisitos
 Antes de executar os testes, certifique-se de ter os seguintes requisitos instalados:
 - [Node.js](https://nodejs.org/)
 - [NPM](https://www.npmjs.com/)
-- [Ergast Developer API](https://ergast.com/mrd/)
-
----
 
 ## Instalação
 
@@ -42,8 +35,6 @@ npm install
 npm install cypress --save-dev
 ```
 
----
-
 ## Execução dos Testes
 Para rodar os testes, utilize o comando:
 ```sh
@@ -51,13 +42,16 @@ npm run test     # Executa os testes em modo headless (sem interface gráfica)
 npm run cy:open  # Executa os testes no modo interativo (GUI Mode)
 ```
 
----
-
 ## Tecnologias Utilizadas
 - Cypress → Ferramenta de automação de testes para aplicações web
 - Node.js → Ambiente de execução para JavaScript
 - npm → Gerenciador de pacotes do Node.js
 - GitHub Actions → Integração contínua (CI/CD) 
+
+## APIs Utilizadas
+- [F1](https://ergast.com/mrd/)
+- NBA - 
+- Campeonato Brasileiro - 
 
 ---
 🤝🏻 Feito por [Gabriel Silva](https://www.linkedin.com/in/gabrielsilva9810/)

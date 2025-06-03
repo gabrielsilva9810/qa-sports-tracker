@@ -1,4 +1,4 @@
-name: Run F1 CI/CD
+name: Run Cypress CI/CD
 
 on:
   push:

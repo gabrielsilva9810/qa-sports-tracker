@@ -7,15 +7,15 @@ Este projeto contém testes automatizados utilizando **Cypress** para consumir A
 Os testes automatizados cobrem:
 
 🏎️ F1:
-- ✅ Listagem de todos os **Grand Prix** da temporada;
+- ✅ Listagem de todos os **grand prix** da temporada;
 - ✅ Listagem de todos os **vencedores** de cada corrida;
-- ✅ Classificação geral dos **pilotos (driver standings)**;
-- ✅ Listagem de todos os **pole positions** da temporada.
+- ✅ Classificação geral dos **pilotos**;
+- ✅ Listagem de todas as **pole positions** da temporada.
 
 🏀 NBA: 
 - ✅ Listagem de **5 jogadores** da NBA;
 - ✅ Listagem de **todos os times** da NBA;
-- ✅ Listagem de **10 jogos da temporada de 2022** da NBA;
+- ✅ Listagem de **10 jogos da temporada de 2022** da NBA.
 
 ⚽ Serie B:
 - ✅ Listagem de todas as **rodadas** do campeonato;
@@ -52,6 +52,17 @@ npm run test     # Executa os testes em modo headless (sem interface gráfica)
 npm run cy:open  # Executa os testes no modo interativo (GUI Mode)
 ```
 
+## Resultados dos Testes
+
+### 🏎️ F1
+<!-- ![F1 - Poles Positions da Temporada](docs/screenshots/f1-results.png) -->
+
+### 🏀 NBA
+![NBA - Jogadores](docs/screenshots/nba-stats.png)
+
+### ⚽ Série B
+![Série B - Classificação](docs/screenshots/serie-b-table.png)
+
 ## Tecnologias Utilizadas
 - Cypress → Ferramenta de automação de testes para aplicações web
 - Node.js → Ambiente de execução para JavaScript
@@ -60,7 +71,7 @@ npm run cy:open  # Executa os testes no modo interativo (GUI Mode)
 
 ## APIs Utilizadas
 - [F1](https://ergast.com/mrd/)
-- NBA - 
+- [NBA](https://docs.balldontlie.io/#nba-api)
 - [Campeonato Brasileiro B](https://api-futebol.com.br/documentacao/campeonato) 
 
 ---

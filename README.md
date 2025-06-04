@@ -13,9 +13,9 @@ Os testes automatizados cobrem:
 - ✅ Listagem de todos os **pole positions** da temporada.
 
 🏀 NBA: 
-- ✅ Listagem;
-- ✅ Listagem;
-- ✅ Listagem;
+- ✅ Listagem de **5 jogadores** da NBA;
+- ✅ Listagem de **todos os times** da NBA;
+- ✅ Listagem de **10 jogos da temporada de 2022** da NBA;
 
 ⚽ Serie B:
 - ✅ Listagem de todas as **rodadas** do campeonato;

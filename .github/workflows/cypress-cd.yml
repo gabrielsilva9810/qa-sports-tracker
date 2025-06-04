@@ -28,3 +28,4 @@ jobs:
 
         env:
           API_SOCCER_KEY: ${{ secrets.API_SOCCER_KEY }}
+          NBA_API_KEY: ${{ secrets.NBA_API_KEY }}

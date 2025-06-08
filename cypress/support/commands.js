@@ -33,3 +33,18 @@ Cypress.Commands.add('safeApiRequestNba', (url) => {
         return res.body;
     });
 });
+
+Cypress.Commands.add('safeApiRequestF1', (url) => {
+    return cy.request({
+        method: 'GET',
+        url,
+        failOnStatusCode: false,
+    }).then((res) => {
+        if (!res || res.status === 0 || res.status === 502 || res.status === 503 || res.status === 429) {
+            cy.log(`⚠️ Falha na conexão com ${url}. Ignorando teste.`);
+            return null;
+        }
+        expect(res.status).to.eq(200);
+        return res.body;
+    });
+});

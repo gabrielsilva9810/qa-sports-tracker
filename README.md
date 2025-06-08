@@ -7,10 +7,13 @@ Este projeto contém testes automatizados utilizando **Cypress** para consumir A
 Os testes automatizados cobrem:
 
 🏎️ F1:
-- ✅ Listagem de todos os **grand prix** da temporada;
-- ✅ Listagem de todos os **vencedores** de cada corrida;
-- ✅ Classificação geral dos **pilotos**;
-- ✅ Listagem de todas as **pole positions** da temporada.
+- ⚠️ Listagem de todos os **grand prix** da temporada;
+- ⚠️ Listagem de todos os **vencedores** de cada corrida;
+- ⚠️ Classificação geral dos **pilotos**;
+- ⚠️ Listagem de todas as **pole positions** da temporada.
+
+> API descontinuada.
+> Os testes foram pulados para evitar falhas desnecessárias.
 
 🏀 NBA: 
 - ✅ Listagem de **5 jogadores** da NBA;
@@ -53,9 +56,6 @@ npm run cy:open  # Executa os testes no modo interativo (GUI Mode)
 ```
 
 ## Resultados dos Testes
-
-### 🏎️ F1
-<!-- ![F1 - Poles Positions da Temporada](docs/screenshots/f1-results.png) -->
 
 ### 🏀 NBA
 ![NBA - Jogadores](docs/screenshots/nba-stats.png)
